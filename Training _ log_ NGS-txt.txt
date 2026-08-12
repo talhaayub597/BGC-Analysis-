@@ -1,0 +1,92 @@
+================================================================================
+TRAINING EXPERIENCE LOG: NGS & BIOINFORMATICS
+================================================================================
+
+
+Name: Talha Ayub
+Training: Wellcome Connecting Science - "Bioinformatics for Biologists"
+Date Completed: August 2026
+Score: 77%
+
+
+================================================================================
+1. KEY LINUX COMMANDS I PRACTICED
+================================================================================
+
+
+I learned how to navigate the server and process sequencing files:
+- File navigation: ls, cd, pwd, mkdir
+- File manipulation: cp, mv, gzip (compress/decompress FASTQ files)
+- Viewing files: head, less, zcat (to look inside FASTQ files without decompressing)
+
+
+================================================================================
+2. NGS WORKFLOW STEPS I LEARNED
+================================================================================
+
+
+I learned the standard bioinformatics pipeline for raw sequencing data:
+
+
+A. Quality Control (FastQC)
+   - Ran FastQC on FASTQ files to check for adapter contamination and low-quality bases.
+   - Learned to interpret FastQC reports (per-base quality, GC content, overrepresented sequences).
+
+
+B. Trimming (Trimmomatic)
+   - Understood how to remove low-quality bases and adapter sequences.
+   - Learned parameters: LEADING, TRAILING, SLIDINGWINDOW, MINLEN.
+
+
+C. Read Mapping (BWA)
+   - Learned how to align reads to a reference genome.
+   - Understood the concept of SAM/BAM files and alignment scores.
+
+
+D. Variant Calling (BCFtools)
+   - Learned how to identify variants (SNPs and Indels) by comparing aligned reads to the reference.
+   - Filtered variants based on Quality (QUAL) scores and Depth (DP).
+
+
+================================================================================
+3. NEXTFLOW & NF-CORE EXPOSURE
+================================================================================
+
+
+- Successfully executed a pre-built nf-core/viralrecon pipeline.
+- Learned to use the "-profile docker" flag to run pipelines in containers.
+- Used the "-resume" flag to restart a pipeline from the last completed step without re-running everything.
+- Understood the concept of reproducible pipelines and why Nextflow is used in modern genomics.
+
+
+================================================================================
+4. R/RSTUDIO VISUALIZATION SKILLS
+================================================================================
+
+
+I wrote an R script to visualize variant data:
+- Loaded variant data using the vcfR package.
+- Created histograms to analyze variant quality score distribution.
+- Used ggplot2 to create bar charts showing SNP vs Insertion vs Deletion ratios.
+- Saved plots as images for reporting.
+
+
+*The exact R script is available in this repository as "DESeq2_analysis.R".*
+
+
+================================================================================
+5. KEY TAKEAWAYS FOR MY RESEARCH GOALS
+================================================================================
+
+
+- I understand the complete workflow from raw FASTQ reads to identified genetic variants.
+- I can apply these skills to analyze publicly available genomic data for medicinal plants (e.g., Curcuma, Azadirachta, Camellia).
+- My goal is to combine this computational knowledge with my wet-lab formulation experience to bridge the gap between traditional herbal medicine and modern genomic evidence.
+
+
+================================================================================
+CONTACT
+================================================================================
+Email: talhaayub597@gmail.com
+GitHub: github.com/talthayub597
+ORCID: orcid.org/0009-0000-0869-6338
