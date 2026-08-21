@@ -20,7 +20,7 @@ This repository contains R scripts and training documentation for analyzing bios
 
 ## Author
 *Talha Ayub*
-- GitHub: [github.com/talthayub597](https://github.com/talthayub597)
+- GitHub: [github.com/talhaayub597](https://github.com/talthayub597)
 - ORCID: [orcid.org/0009-0000-0869-6338](https://orcid.org/0009-0000-0869-6338)
 - Email: talhaayub597@gmail.com
 
