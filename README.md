@@ -67,6 +67,8 @@ biosynthetic gene cluster analysis) once I have access to appropriate
 computational infrastructure and training — genuine hands-on experience with
 these tools is something I'm seeking through further study, not something I
 currently claim to have completed.
+## Related Work
+See also: github.com/talhaayub597/Turmeric-Transcriptomics — differential expression analysis of turmeric rhizome vs. leaf tissue (NCBI GEO: GSE16733).
 
 ## Author
 Talha Ayub
